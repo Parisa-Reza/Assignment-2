@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004444
+
+}
+
+nav {
+
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+}
+
+
+
+.left-nav img {
+    width: 8%;
+}
+
+.left-nav .fa-angle-down{
+    color: white;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+ul li a  {
+    text-decoration: none;
+    color: white;
+}
+
+.center-nav {
+
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  
+}
+
+.center-nav-left{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    width:25%;
+    
+}
+
+.center-nav-left img{
+
+    width:30%;
+    
+}
+
+.center-nav-right{
+   width:50%;
+   padding-left: 0.5rem;
+   border-left: 1px solid rgba(206, 201, 206, 0.493);
+}
+.site-name {
+    font-size: 3rem;
+    color: white;
+}
+
+.center-nav-para {
+    font-size: 0.7rem;
+    color: white;
+
+}
+
+
+
+.right-nav {
+    display: flex;
+    gap: 1rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-nav-left {
+    display: flex;
+    align-items: center; 
+    gap: 0.5rem;
+    border-right: 1px solid rgba(206, 201, 206, 0.493);
+    padding-right: 20px;
+    white-space: nowrap; 
+}
+
+.right-nav-left p {
+    margin: 0; 
+}
+
+.right-nav-right {
+    display: flex;
+    align-items: center; 
+}
+
+
+
+.main-body{
+    background-color: #c9f4fd;
+    display: flex;
+}
+
+.main-body-left-container{
+    padding: 2rem 4rem;
+}
+
+.main-body-left-first-line{
+    display:flex;
+    gap:1.5rem;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.main-body-left-second-line{
+ margin-top:2rem;
+ font-family: 'Marcellus', serif;
+ font-weight: 400;
+
+}
+
+.main-body-left-third-line{
+    margin-top: 1.5rem;
+    display:flex;
+    gap:1rem;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.main-body-left-third-line-elements{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-left:1rem;
+    border-left: 1px solid rgb(119, 115, 119);
+    font-size: 0.8rem;
+}
+
+.main-body-left-third-line-element1 .fa-solid{
+  color:#dd9f19;
+   font-size: 0.7rem;
+}
+
+.main-body-left-third-line-elements .fa-solid{
+    color:#004403;
+}
