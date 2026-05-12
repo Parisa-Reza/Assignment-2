@@ -3,7 +3,8 @@
 A simple raw HTML & CSS project with a clean folder structure and responsive design setup.
 
 ---
-
+## Live Demo
+> https://parisa-reza.github.io/Assignment-2/
 ##  Project Structure
 
 ```bash
